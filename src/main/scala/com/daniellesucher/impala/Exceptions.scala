@@ -1,4 +1,4 @@
-package com.stripe.impala
+package com.daniellesucher.impala
 
 case class ConnectionException(message: String) extends Exception
 case class CursorException(message: String) extends Exception

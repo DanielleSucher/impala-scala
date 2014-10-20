@@ -1,4 +1,4 @@
-package com.stripe.impala
+package com.daniellesucher.impala
 
 import java.text.SimpleDateFormat
 

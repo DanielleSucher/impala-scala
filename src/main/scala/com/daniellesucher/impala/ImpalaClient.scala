@@ -1,4 +1,4 @@
-package com.stripe.impala
+package com.daniellesucher.impala
 
 case class ImpalaClient(host: String, port: Int) {
   lazy val connection = Connection(host, port)
