@@ -75,7 +75,7 @@ case class Cursor(handle: QueryHandle, client: ClouderaImpalaClient) {
     } catch {
       case e: BeeswaxException => {
         isOpen = false
-        throw CursorException("Cursor has expired or been closed")
+        throw e
       }
       case e: Exception => throw e
     }
